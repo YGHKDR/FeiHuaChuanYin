@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LangActivity">
+    <TextView
+        android:id="@+id/text_lang1"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textSize="50px"
+        android:hint="请录入诗句"
+        android:minHeight="200dp" />
+    <TextView
+        android:id="@+id/text_lang2"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textSize="50px"
+        android:minHeight="200dp" />
+    <TextView
+        android:id="@+id/text_back"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:gravity="center"
+        android:minHeight="200dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="GO"
+        android:onClick="go" />
+</LinearLayout>

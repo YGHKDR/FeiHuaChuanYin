@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/edit_text"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:hint="请输入令词"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="语音识别"
+        android:layout_marginTop="10dp"
+        android:onClick="recognize"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:onClick="input"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="设置"
+        android:onClick="setting"/>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_margin="100dp"
+        android:text="请从以下令词中选择一个输入                               “花春月风夜 人山云酒新 年绿水松青 书香归心平 思家”\n语音识别格式如：“鲜花的花”"></TextView>
+
+</LinearLayout>
